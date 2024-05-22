@@ -7133,7 +7133,7 @@ components:
         logit_bias: &completions_logit_bias
           type: object
           x-oaiTypeLabel: map
-          default: null
+          #default: null
           nullable: true
           additionalProperties:
             type: integer
@@ -7708,7 +7708,7 @@ components:
         Options for streaming response. Only set this when you set `stream: true`.
       type: object
       nullable: true
-      default: null
+      #default: null
       properties:
         include_usage:
           type: boolean
@@ -7825,7 +7825,7 @@ components:
         logit_bias:
           type: object
           x-oaiTypeLabel: map
-          default: null
+          #default: null
           nullable: true
           additionalProperties:
             type: integer
